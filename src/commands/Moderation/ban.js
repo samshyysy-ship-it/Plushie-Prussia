@@ -44,8 +44,8 @@ export default {
             await InteractionHelper.universalReply(interaction, {
                 embeds: [
                     successEmbed(
-                        `🚫 **Baneado** ${user.tag}`,
-                        `**Razón:** ${reason}\n**Case ID:** #${result.caseId}`,
+                        `🚫 **Ban** ${user.tag}`,
+                        `**Reason** ${reason}\n**Case ID:** #${result.caseId}`,
                     ),
                 ],
             });
