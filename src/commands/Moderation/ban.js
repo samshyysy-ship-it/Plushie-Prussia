@@ -7,7 +7,7 @@ import { ModerationService } from '../../services/moderationService.js';
 import { handleInteractionError } from '../../utils/errorHandler.js';
 export default {
     data: new SlashCommandBuilder()
-        .setName("ban")
+        .setName("banear")
         .setDescription("¡Banea a un miembro del Servidor!")
         .addUserOption((option) =>
             option
